@@ -1,0 +1,56 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a baseline font size and family */
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply some basic styles to headings */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Set default link styles */
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add your global styles below this line */
+
+/* Example of a global container style */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Example of a global button style */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Example of global input style */
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Add your component styles below this line */
